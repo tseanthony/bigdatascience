@@ -1,0 +1,27 @@
+                              TERMS      DOC_FREQUENCY
+
+                       mortgagerate      7
+                          hoofmouth      5
+                       mouthdisease      5
+                   hoofmouthdisease      5
+                       flightsafety      3
+                        millionloan      2
+                        housingloan      2
+                            newloan      2
+                            ratelow      2
+                          bankraise      2
+                          raiserate      2
+                       mortgageloan      2
+                       airtransport      2
+                           twomonth      2
+                      airlinesafety      2
+              internationalstandard      2
+                         bankcharge      2
+                        cutmortgage      2
+                        causecrisis      2
+                        ratepercent      2
+                          banklower      2
+                agricultureminister      2
+                  governmentsubsidy      2
+                          lowerrate      2
+                         monthmonth      2

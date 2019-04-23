@@ -1,0 +1,775 @@
+[main] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator tokenize
+[main] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator ssplit
+[main] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator pos
+[main] INFO edu.stanford.nlp.tagger.maxent.MaxentTagger - Loading POS tagger from edu/stanford/nlp/models/pos-tagger/english-left3words/english-left3words-distsim.tagger ... done [0.9 sec].
+[main] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator lemma
+[main] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator ner
+[main] INFO edu.stanford.nlp.ie.AbstractSequenceClassifier - Loading classifier from edu/stanford/nlp/models/ner/english.all.3class.distsim.crf.ser.gz ... done [1.7 sec].
+[main] INFO edu.stanford.nlp.ie.AbstractSequenceClassifier - Loading classifier from edu/stanford/nlp/models/ner/english.muc.7class.distsim.crf.ser.gz ... done [0.5 sec].
+[main] INFO edu.stanford.nlp.ie.AbstractSequenceClassifier - Loading classifier from edu/stanford/nlp/models/ner/english.conll.4class.distsim.crf.ser.gz ... done [2.7 sec].
+[main] INFO edu.stanford.nlp.pipeline.StanfordCoreNLP - Adding annotator parse
+[main] INFO edu.stanford.nlp.parser.common.ParserGrammar - Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ... done [0.5 sec].
+50000
+100000
+150000
+200000
+250000
+300000
+350000
+400000
+450000
+500000
+550000
+600000
+650000
+700000
+750000
+800000
+850000
+900000
+950000
+1000000
+1050000
+1100000
+1150000
+1200000
+1250000
+1300000
+1350000
+1400000
+1450000
+1500000
+1550000
+1600000
+
+20 Most Frequent Mentions: Negative
+@tommcfly                               1645
+@mileycyrus                             1368
+@ddlovato                               1258
+@DonnieWahlberg                         513
+@mitchelmusso                           417
+@jordanknight                           387
+@Jonasbrothers                          372
+@selenagomez                            352
+@DavidArchie                            339
+@JonathanRKnight                        329
+@dougiemcfly                            311
+@taylorswift                            301
+@peterfacinelli                         296
+@jonasbrothers                          271
+@                                       237
+@joeymcintyre                           237
+@Dannymcfly                             192
+@gfalcone                               187
+@LaurenConrad                           177
+@KimKardashian                          172
+
+20 Most Frequent Mentions: Positive
+@mileycyrus                             2893
+@tommcfly                               2192
+@ddlovato                               2060
+@DavidArchie                            880
+@Jonasbrothers                          841
+@JonathanRKnight                        718
+@jordanknight                           716
+@taylorswift                            654
+@jonasbrothers                          616
+@mitchelmusso                           615
+@DonnieWahlberg                         569
+@dougiemcfly                            471
+@aplusk                                 438
+@selenagomez                            420
+@YoungQ                                 366
+@Dannymcfly                             348
+@gfalcone                               345
+@shaundiviney                           338
+@joeymcintyre                           320
+@kirstiealley                           294
+
+20 Most Frequent Hashtags: Negative
+#fb                                     410
+#squarespace                            392
+#iranelection                           192
+#inaperfectworld                        181
+#fail                                   148
+#iremember                              132
+#iPhone                                 102
+#dontyouhate                            101
+#followfriday                           96
+#haveyouever                            94
+#tag                                    92
+#trackle                                83
+#asot                                   79
+#iphone                                 70
+#BSB                                    68
+#sebday                                 68
+#IranElection                           55
+#spymaster                              54
+#bgt                                    52
+#myweakness                             52
+
+20 Most Frequent Hashtags: Positive
+#followfriday                           1658
+#FF                                     444
+#sebday                                 418
+#FollowFriday                           365
+#musicmonday                            330
+#ff                                     293
+#fb                                     218
+#myweakness                             207
+#mcflyforgermany                        187
+#squarespace                            176
+#delongeday                             157
+#mileymonday                            155
+#shaunjumpnow                           126
+#iremember                              125
+#marsiscoming                           106
+#goodsex                                97
+#asot                                   96
+#andyhurleyday                          75
+#haveyouever                            68
+#shaundiviney                           68
+
+1-Grams: Negative
+just                                    45978
+work                                    32647
+go                                      30407
+get                                     28862
+today                                   28098
+got                                     26683
+like                                    26298
+going                                   23472
+back                                    22900
+really                                  22234
+want                                    19735
+good                                    19068
+still                                   18885
+know                                    18503
+miss                                    18111
+!!                                      17747
+home                                    17529
+time                                    17338
+sad                                     17253
+oh                                      17119
+
+1-Grams: Positive
+just                                    44664
+good                                    41003
+http                                    30685
+love                                    28089
+thanks                                  25154
+!!                                      24298
+like                                    23570
+get                                     22305
+got                                     22038
+going                                   21913
+lol                                     21198
+today                                   21173
+new                                     19776
+time                                    18686
+u                                       18016
+go                                      17646
+morning                                 17130
+one                                     16306
+back                                    16294
+know                                    16204
+
+2-Grams: Negative
+gon na                                  7791
+wan na                                  7570
+last night                              5568
+just got                                4793
+feel like                               3413
+want go                                 2966
+got ta                                  2934
+na go                                   2772
+right now                               2503
+looks like                              2220
+go back                                 1964
+sorry hear                              1956
+back work                               1952
+getting ready                           1895
+good morning                            1782
+go work                                 1660
+just woke                               1609
+oh no                                   1579
+really want                             1542
+go home                                 1512
+
+2-Grams: Positive
+good morning                            7376
+gon na                                  6298
+just got                                5146
+last night                              3664
+wan na                                  2728
+happy birthday                          2563
+good luck                               2501
+thank you                               2490
+getting ready                           2370
+good night                              2272
+looking forward                         2135
+got ta                                  2126
+happy mothers                           1682
+sounds like                             1653
+get followers                           1582
+just finished                           1542
+add everyone                            1485
+train pay                               1484
+pay vip                                 1484
+everyone train                          1484
+
+3-Grams: Negative
+wan na go                               2221
+just got home                           980
+gon na miss                             900
+just got back                           790
+du n no                                 690
+gon na go                               550
+just woke up                            488
+got ta go                               480
+hope feel better                        443
+really wan na                           435
+sorry hear that                         423
+getting ready work                      382
+getting ready go                        356
+really want go                          354
+gon na get                              340
+want go home                            339
+want go back                            338
+go back sleep                           335
+got ta get                              331
+mtv movie awards                        311
+
+3-Grams: Positive
+train pay vip                           1484
+add everyone train                      1484
+get followers using                     1484
+everyone train pay                      1484
+just got home                           1180
+just got back                           1067
+mtv movie awards                        854
+using www.tweeteradder.com add          830
+followers using www.tweeteradder.com    830
+www.tweeteradder.com add everyone       830
+gon na go                               675
+www.tweeterfollow.com add everyone      654
+followers using www.tweeterfollow.com   654
+using www.tweeterfollow.com add         654
+good morning everyone                   500
+getting ready go                        453
+happy mothers day                       446
+just woke up                            393
+new moon trailer                        390
+du n no                                 371
+
+4-Grams,: Negative
+wan na go home                          296
+wan na go back                          253
+rain rain go away                       228
+wan na go work                          178
+really wan na go                        160
+just got home work                      112
+hope feel better soon                   102
+really cool especially got              101
+jogging really cool especially          101
+got ta go work                          98
+looks like gon na                       87
+afford angels demons watched            86
+demons watched free http                86
+angels demons watched free              86
+$ $ $ $                                 85
+getting ready go work                   84
+wan na go school                        82
+cool especially got fever               80
+just wan na go                          77
+watch mtv movie awards                  74
+
+4-Grams,: Positive
+everyone train pay vip                  1484
+add everyone train pay                  1484
+www.tweeteradder.com add everyone train 830
+using www.tweeteradder.com add everyone 830
+followers using www.tweeteradder.com add 830
+get followers using www.tweeteradder.com 830
+followers using www.tweeterfollow.com add 654
+get followers using www.tweeterfollow.com 654
+using www.tweeterfollow.com add everyone 654
+www.tweeterfollow.com add everyone train 654
+#sebday #sebday #sebday #sebday         315
+lines vines trying times                141
+watching mtv movie awards               137
+longest poem world www.longestpoemintheworld.com/tweet// 117
+included longest poem world             117
+just included longest poem              117
+tweet just included longest             117
+#mcflyforgermany #mcflyforgermany #mcflyforgermany #mcflyforgermany 107
+#mileymonday #mileymonday #mileymonday #mileymonday 106
+#shaunjumpnow #shaunjumpnow #shaunjumpnow #shaunjumpnow 101
+
+1-Grams, Nouns Only: Negative
+work                                    28722
+today                                   27893
+time                                    16340
+home                                    15651
+night                                   13338
+wish                                    11924
+tomorrow                                11690
+morning                                 10705
+lol                                     9478
+bed                                     8816
+amp                                     8658
+school                                  8610
+u                                       8544
+hate                                    8129
+sleep                                   8128
+love                                    8044
+tonight                                 7623
+quot                                    7291
+twitter                                 7076
+days                                    7010
+
+1-Grams, Nouns Only: Positive
+thanks                                  25023
+love                                    20979
+today                                   20900
+time                                    17227
+morning                                 17033
+night                                   14375
+lol                                     13774
+quot                                    12080
+http                                    11834
+work                                    11283
+haha                                    11106
+u                                       10470
+home                                    10308
+fun                                     10245
+amp                                     9617
+twitter                                 9417
+tomorrow                                8423
+everyone                                7197
+tonight                                 6897
+bed                                     6876
+
+2-Grams, Nouns Only: Negative
+work today                              1373
+work tomorrow                           996
+ice cream                               792
+school tomorrow                         668
+home work                               551
+swine flu                               534
+work work                               468
+rain rain                               431
+exam tomorrow                           430
+school today                            416
+home today                              405
+time work                               356
+summer school                           329
+r u                                     317
+ta work                                 310
+fathers day                             309
+work morning                            302
+tomorrow morning                        301
+sleep night                             294
+cell phone                              282
+
+2-Grams, Nouns Only: Positive
+followers everyone                      1496
+train pay                               1484
+pay vip                                 1484
+everyone train                          1484
+ice cream                               1008
+morning everyone                        801
+movie awards                            590
+mothers day                             583
+love song                               536
+ha ha                                   529
+http blip.fm                            496
+work today                              413
+r u                                     408
+fun night                               401
+@mileycyrus http                        377
+night night                             368
+love love                               362
+ta love                                 351
+#sebday #sebday                         340
+u r                                     328
+
+3-Grams, Nouns Only: Negative
+work work work                          172
+mtv movie awards                        103
+gt gt gt                                75
+rain rain rain                          74
+ow ow ow                                73
+bed work tomorrow                       57
+gt _ lt                                 51
+#sebday #sebday #sebday                 47
+omg omg omg                             47
+jon amp kate                            47
+fuck fuck fuck                          46
+commands #tag #tag                      46
+ha ha ha                                36
+shit shit shit                          36
+@workformeonline commands #tag          34
+#imisscath #imisscath #imisscath        33
+hate hate hate                          32
+maths exam tomorrow                     30
+lt lt lt                                27
+bed work morning                        25
+
+3-Grams, Nouns Only: Positive
+train pay vip                           1484
+everyone train pay                      1484
+followers everyone train                1484
+#sebday #sebday #sebday                 312
+mtv movie awards                        242
+limit story ch                          207
+gt gt gt                                116
+#mcflyforgermany #mcflyforgermany #mcflyforgermany 110
+#mileymonday #mileymonday #mileymonday  107
+#shaunjumpnow #shaunjumpnow #shaunjumpnow 105
+love love love                          102
+#delongeday #delongeday #delongeday     93
+ha ha ha                                83
+lt lt lt                                80
+work work work                          79
+money shareholder dividends             79
+www.me.asia money shareholder           79
+birds amp bees                          70
+status twitter ice                      67
+lines vines times                       62
+
+4-Grams, Nouns Only: Negative
+gt gt gt gt                             46
+#sebday #sebday #sebday #sebday         41
+@workformeonline commands #tag #tag     34
+ow ow ow ow                             34
+fuck fuck fuck fuck                     31
+#imisscath #imisscath #imisscath #imisscath 29
+shit shit shit shit                     25
+mom work w/her fri.                     23
+watch mtv movie awards                  22
+work work work work                     21
+hey tom hand fall                       21
+tom hand fall haha                      21
+@taylorswift blog haha rofl             20
+http ace prize retweeting               18
+food food food food                     17
+omg omg omg omg                         17
+#bts #bts #bts #bts                     15
+videos pictures glimpses #iranelection  15
+#bradiewebb #bradiewebb #bradiewebb #bradiewebb 15
+quotsonny chance quot brazil            14
+
+4-Grams, Nouns Only: Positive
+followers everyone train pay            1484
+everyone train pay vip                  1484
+#sebday #sebday #sebday #sebday         284
+#mileymonday #mileymonday #mileymonday #mileymonday 91
+#shaunjumpnow #shaunjumpnow #shaunjumpnow #shaunjumpnow 89
+#mcflyforgermany #mcflyforgermany #mcflyforgermany #mcflyforgermany 87
+www.me.asia money shareholder dividends 79
+#delongeday #delongeday #delongeday #delongeday 79
+gt gt gt gt                             74
+youtube birds amp bees                  35
+bees birds amp bees                     35
+birds amp bees birds                    35
+amp bees birds amp                      35
+lt lt lt lt                             30
+@andyclemmensen thx soo birthday        29
+thx soo birthday msn                    29
+heya online web chat                    26
+angels demons lt http                   24
+music electro project http              23
+@heidimontag ur planet amp              23
+
+Adjective, Noun (singular or Mass): Negative
+last night                              5540
+good morning                            1745
+sore throat                             823
+first time                              743
+ready work                              706
+last time                               681
+good luck                               631
+long time                               546
+good night                              540
+next time                               493
+
+Adjective, Noun (singular or Mass): Positive
+good morning                            7020
+last night                              3634
+happy birthday                          2561
+good luck                               2226
+good night                              2197
+first time                              971
+great time                              713
+good time                               627
+much fun                                574
+next time                               565
+
+Personal Pronoun, Verb (past tense): Negative
+i got                                   69
+it !!                                   44
+i thought                               40
+it !!!                                  28
+i missed                                21
+i lost                                  19
+i wanted                                17
+i tried                                 17
+i went                                  15
+it ??                                   15
+
+Personal Pronoun, Verb (past tense): Positive
+it !!                                   76
+i got                                   45
+it !!!                                  44
+ya got                                  40
+us posted                               22
+you got                                 21
+it ??                                   14
+i thought                               13
+it !!!!                                 10
+i found                                 9
+
+Personal Pronoun, Verb (gerund or present participle): Negative
+us going                                14
+i going                                 10
+i looking                               8
+us hanging                              7
+ya gon                                  6
+us saying                               5
+i feeling                               5
+us getting                              5
+i trying                                5
+us waiting                              4
+
+Personal Pronoun, Verb (gerund or present participle): Positive
+ya gon                                  13
+us getting                              12
+ya doing                                12
+i going                                 10
+ya going                                9
+us going                                7
+ya trying                               6
+us following                            4
+i feeling                               4
+us hanging                              4
+
+20 Most Frequent Dependency Parser Results: Negative
+sorry hear that                         54
+just got work                           37
+@mileycyrus saved life                  27
+britains got talent                     24
+mom asking fri.                         23
+ive got headache                        21
+wan go work                             20
+things come end                         19
+fans tweet jum                          18
+time get work                           17
+pictures offer glimpses                 15
+ta go work                              15
+ive got work                            14
+stick tried backflip                    13
+twitter let picture                     13
+lol drove drink                         13
+@reatlas clean me                       13
+someone talk me                         12
+time go work                            11
+wan go home                             11
+
+20 Most Frequent Dependency Parser Results: Positive
+tweet included www.longestpoemintheworld.com/tweet//100
+noone got one                           86
+cest update ice                         67
+britains got talent                     38
+www.officeautomation.com download copy  33
+aww thank you                           32
+guys handle fax                         31
+heya online now                         26
+time go bed                             23
+haha thank you                          22
+shares http /                           20
+awww thank you                          19
+youtube covered forget                  19
+& learned power                         19
+days left school                        18
+well thank you                          17
+hi uploaded lessons                     15
+nice meet you                           15
+just got work                           14
+diversity won bgt                       14
+
+20 Most Frequent NER Results, 1-grams: Negative
+night                                   7263
+today                                   5775
+last                                    5364
+summer                                  3407
+monday                                  2909
+friday                                  2695
+sunday                                  2558
+saturday                                2221
+$                                       1255
+june                                    1073
+tonight                                 911
+tuesday                                 866
+thursday                                866
+morning                                 831
+weekend                                 827
+uk                                      769
+july                                    753
+london                                  726
+wednesday                               702
+us                                      690
+
+20 Most Frequent NER Results, 1-grams: Positive
+night                                   5998
+last                                    3517
+today                                   3365
+sunday                                  3064
+friday                                  2863
+summer                                  2708
+monday                                  2297
+saturday                                1769
+june                                    1397
+twitter                                 1215
+morning                                 926
+$                                       805
+tuesday                                 776
+amp                                     755
+tonight                                 731
+london                                  717
+thursday                                683
+july                                    653
+wednesday                               631
+new                                     619
+
+20 Most Frequent NER Results, 2-grams: Negative
+last night                              5040
+air france                              424
+$ $                                     407
+friday night                            366
+saturday night                          360
+farrah fawcett                          274
+monday morning                          238
+jon kate                                220
+new york                                209
+susan boyle                             174
+late night                              157
+jonas brothers                          154
+david carradine                         145
+ed mcmahon                              138
+saturday morning                        130
+sunday night                            121
+jay leno                                117
+sunday morning                          111
+night last                              101
+last weekend                            99
+
+20 Most Frequent NER Results, 2-grams: Positive
+last night                              3297
+#sebday #sebday                         344
+jonas brothers                          296
+new york                                238
+friday night                            233
+saturday night                          215
+$ $                                     213
+monday morning                          212
+late night                              193
+sunday morning                          179
+susan boyle                             173
+hannah montana                          168
+night last                              158
+night night                             151
+harry potter                            143
+good night                              121
+#mileymonday #mileymonday               120
+taylor swift                            119
+#delongeday #delongeday                 109
+miley cyrus                             107
+
+20 Most Frequent NER Results, 3-grams: Negative
+$ $ $                                   177
+night last night                        99
+#sebday #sebday #sebday                 48
+late last night                         43
+mtv movie awards                        28
+new york city                           24
+pogo stick fail                         18
+stick fail gif                          18
+tonight last night                      18
+last night tonight                      14
+#barakatday #barakatday #barakatday     13
+rio de janeiro                          13
+danny la rue                            13
+lee kuan yew                            13
+vines trying times                      12
+ebay ebay ebay                          11
+lines vines trying                      11
+britains got talent                     10
+last night today                        9
+sarah connor chronicles                 9
+
+20 Most Frequent NER Results, 3-grams: Positive
+#sebday #sebday #sebday                 316
+night last night                        156
+#mileymonday #mileymonday #mileymonday  105
+#delongeday #delongeday #delongeday     94
+$ $ $                                   76
+mtv movie awards                        48
+time illusion time                      38
+illusion time now                       38
+hannah montana movie                    37
+vines trying times                      37
+lines vines trying                      37
+#frenchiebday #frenchiebday #frenchiebday 24
+late last night                         24
+star wars day                           16
+new york city                           15
+night good night                        15
+happy star wars                         15
+tongits pc mac                          14
+tonight good night                      13
+download opera browser                  12
+
+20 Most Frequent NER Results, 4-grams: Negative
+$ $ $ $                                 85
+#sebday #sebday #sebday #sebday         42
+pogo stick fail gif                     18
+lines vines trying times                11
+ebay ebay ebay ebay                     10
+#barakatday #barakatday #barakatday #barakatday 9
+rio de janeiro paris                    7
+cash colligan cash colligan             6
+free comic book day                     6
+#chesterday #chesterday #chesterday #chesterday 6
+#andyhurleyday #andyhurleyday #andyhurleyday #andyhurleyday 5
+colligan cash colligan cash             5
+five days end july                      4
+jay lenos last night                    4
+jonas brothers demi lovato              4
+castle howard temple four               3
+howard temple four winds                3
+lenos last night tonight                3
+guitar hero world tour                  3
+$ % # $                                 3
+
+20 Most Frequent NER Results, 4-grams: Positive
+#sebday #sebday #sebday #sebday         288
+#mileymonday #mileymonday #mileymonday #mileymonday 90
+#delongeday #delongeday #delongeday #delongeday 79
+time illusion time now                  38
+lines vines trying times                37
+$ $ $ $                                 23
+#frenchiebday #frenchiebday #frenchiebday #frenchiebday 20
+happy star wars day                     15
+download opera browser free             12
+hugh laurie hugh laurie                 11
+#andyhurleyday #andyhurleyday #andyhurleyday #andyhurleyday 10
+laurie hugh laurie hugh                 9
+free comic book day                     8
+twilight twilight twilight twilight     7
+la la la la                             7
+#chesterday #chesterday #chesterday #chesterday 7
+night ever last night                   6
+diversity diversity diversity diversity 6
+guitar hero world tour                  5
+da ba dee da                            5
