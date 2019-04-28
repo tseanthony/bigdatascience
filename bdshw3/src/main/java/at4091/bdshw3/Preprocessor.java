@@ -27,7 +27,7 @@ public class Preprocessor {
 //	    props.setProperty("ner.applyFineGrained", "false");
 //	    props.setProperty("ner.applyNumericClassifiers", "false");
 //	    props.setProperty("ner.useSUTime", "false");
-	     
+//	     
 	    this.pipeline = new StanfordCoreNLP(props);	 
 	    this.document = null; 
 	     

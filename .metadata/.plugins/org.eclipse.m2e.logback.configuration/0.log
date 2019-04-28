@@ -40,3 +40,114 @@
 2019-04-23 17:02:09,677 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw2/src/main/resources
 2019-04-23 17:02:09,682 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-04-23 17:02:09,682 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw2/src/test/resources
+2019-04-25 12:11:34,480 [Worker-12: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-04-25 12:12:28,858 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-25 12:12:28,860 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/main/resources
+2019-04-25 12:12:28,863 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-25 12:12:28,864 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/test/resources
+2019-04-25 12:13:22,277 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-25 12:13:22,278 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/main/resources
+2019-04-25 12:13:22,280 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-25 12:13:22,280 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/test/resources
+2019-04-25 16:14:35,415 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-04-28 17:13:36,071 [Worker-9: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-04-28 17:20:20,378 [Worker-9: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 17:20:20,380 [Worker-9: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/main/resources
+2019-04-28 17:20:20,385 [Worker-9: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 17:20:20,385 [Worker-9: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/test/resources
+2019-04-28 17:23:53,155 [Worker-10: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 17:23:53,160 [Worker-10: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/main/resources
+2019-04-28 17:23:53,162 [Worker-10: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 17:23:53,162 [Worker-10: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/test/resources
+2019-04-28 17:25:51,453 [Worker-8: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 17:25:51,455 [Worker-8: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/main/resources
+2019-04-28 17:25:51,459 [Worker-8: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 17:25:51,459 [Worker-8: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/test/resources
+2019-04-28 17:32:41,668 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 17:32:41,669 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/main/resources
+2019-04-28 17:32:41,672 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 17:32:41,674 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/test/resources
+2019-04-28 17:46:41,941 [Worker-5: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: at4091:bdshw2:0.0.1-SNAPSHOT @ /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw2/pom.xml.
+2019-04-28 17:46:42,622 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /bdshw2/src/main/java
+2019-04-28 17:46:42,629 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /bdshw2/src/test/java
+2019-04-28 17:46:42,794 [Worker-5: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2019-04-28 17:46:49,086 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 17:46:49,087 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw2/src/main/resources
+2019-04-28 17:46:49,093 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 17:46:49,093 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw2/src/test/resources
+2019-04-28 17:46:49,236 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 17:46:49,237 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/main/resources
+2019-04-28 17:46:49,248 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 17:46:49,249 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/test/resources
+2019-04-28 18:09:24,902 [Worker-23: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 18:09:24,904 [Worker-23: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/main/resources
+2019-04-28 18:09:24,906 [Worker-23: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 18:09:24,907 [Worker-23: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/test/resources
+2019-04-28 18:10:24,113 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 18:10:24,116 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/main/resources
+2019-04-28 18:10:24,125 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 18:10:24,128 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/test/resources
+2019-04-28 18:11:44,156 [Worker-23: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 18:11:44,157 [Worker-23: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/main/resources
+2019-04-28 18:11:44,163 [Worker-23: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 18:11:44,163 [Worker-23: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/test/resources
+2019-04-28 18:14:17,652 [Worker-25: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 18:14:17,654 [Worker-25: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/main/resources
+2019-04-28 18:14:17,668 [Worker-25: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 18:14:17,668 [Worker-25: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/test/resources
+2019-04-28 18:16:55,983 [Worker-26: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 18:16:55,985 [Worker-26: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/main/resources
+2019-04-28 18:16:55,987 [Worker-26: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 18:16:55,988 [Worker-26: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/test/resources
+2019-04-28 18:21:25,255 [Worker-26: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 18:21:25,260 [Worker-26: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/main/resources
+2019-04-28 18:21:25,263 [Worker-26: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 18:21:25,263 [Worker-26: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/test/resources
+2019-04-28 18:22:57,957 [Worker-5: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 18:22:57,958 [Worker-5: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/main/resources
+2019-04-28 18:22:57,959 [Worker-5: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 18:22:57,960 [Worker-5: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/test/resources
+2019-04-28 18:23:12,251 [Worker-25: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 18:23:12,251 [Worker-25: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/main/resources
+2019-04-28 18:23:12,253 [Worker-25: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 18:23:12,253 [Worker-25: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/test/resources
+2019-04-28 18:23:53,925 [Worker-27: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 18:23:53,926 [Worker-27: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/main/resources
+2019-04-28 18:23:53,928 [Worker-27: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 18:23:53,929 [Worker-27: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/test/resources
+2019-04-28 18:26:24,827 [Worker-31: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 18:26:24,830 [Worker-31: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/main/resources
+2019-04-28 18:26:24,837 [Worker-31: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 18:26:24,838 [Worker-31: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/test/resources
+2019-04-28 18:30:01,223 [Worker-33: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 18:30:01,226 [Worker-33: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/main/resources
+2019-04-28 18:30:01,229 [Worker-33: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 18:30:01,229 [Worker-33: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/test/resources
+2019-04-28 18:33:36,352 [Worker-28: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 18:33:36,354 [Worker-28: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/main/resources
+2019-04-28 18:33:36,356 [Worker-28: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 18:33:36,356 [Worker-28: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/test/resources
+2019-04-28 18:34:31,196 [Worker-35: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 18:34:31,208 [Worker-35: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/main/resources
+2019-04-28 18:34:31,211 [Worker-35: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 18:34:31,211 [Worker-35: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/test/resources
+2019-04-28 18:58:57,762 [Worker-38: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 18:58:57,770 [Worker-38: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/main/resources
+2019-04-28 18:58:57,774 [Worker-38: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 18:58:57,775 [Worker-38: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/test/resources
+2019-04-28 18:59:43,548 [Worker-38: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 18:59:43,549 [Worker-38: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/main/resources
+2019-04-28 18:59:43,551 [Worker-38: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 18:59:43,557 [Worker-38: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/test/resources
+2019-04-28 19:00:17,433 [Worker-37: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 19:00:17,433 [Worker-37: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/main/resources
+2019-04-28 19:00:17,435 [Worker-37: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 19:00:17,437 [Worker-37: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/test/resources
+2019-04-28 19:00:59,922 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 19:00:59,922 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/main/resources
+2019-04-28 19:00:59,924 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 19:00:59,924 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/test/resources
+2019-04-28 19:01:34,869 [Worker-34: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 19:01:34,870 [Worker-34: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/main/resources
+2019-04-28 19:01:34,878 [Worker-34: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-28 19:01:34,881 [Worker-34: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/anthonytse/Projects/Eclipse/BigDataScience/bdshw3/src/test/resources

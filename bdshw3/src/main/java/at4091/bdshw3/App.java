@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.Formatter;
 import java.util.HashMap;
@@ -11,7 +12,6 @@ import java.util.Locale;
 import java.util.TreeMap;
 import java.util.TreeSet;
 import java.util.Map.Entry;
-
 
 
 public class App 
@@ -72,6 +72,7 @@ public class App
     	File stopWordFile = new File(TestPath, "CoreNLP_StopWords.txt");
     	
     	ArrayList<String> inputFileList = getFileListFromFolder(inputPath);
+    	Collections.sort(inputFileList);
     	
     	// Instance of StopWordFilter Class with Name of Stop File Text File
     	StopWordFilter swf = new StopWordFilter(stopWordFile);
@@ -115,6 +116,8 @@ public class App
     	 */
     	
     	ArrayList<TreeSet<Integer>> cluster = new ArrayList<TreeSet<Integer>>();
+    	
+    	
     	switch(simOption) {
 			case "-e": 
 				cluster = Cluster.kMeansEuclidean(3, tfidf);   
@@ -126,14 +129,16 @@ public class App
 				break;
 		}
     	
+    	ArrayList<String> topics = getTopicFolderNames(inputFileList, cluster);
     	
-    	    	
+    	Collections.sort(KNNFileList);  	
     	// Create Stop Word Removed Files for KNN input
     	for (int i = 0; i < KNNFileList.size(); i++) {
     		File currInput = new File(KNNFileList.get(i));
         	File currOutput = createOutputTree(KNNFileList.get(i), outputPath);
         	swf.remove(currInput, currOutput);
     	}
+    	
     	
     	// document word vectors
     	TreeMap<String, HashMap<String, Integer>> dtmforKNN = new TreeMap<String, HashMap<String, Integer>>();
@@ -147,7 +152,12 @@ public class App
     	// create dtm matrix for input files.
     	double[][] inputTFIDF = modelTermsDTM.KNNInputTFIDF(dtmforKNN);
     	
-    	knearestneighbor(3, inputTFIDF, tfidf, cluster);
+    	int[] inputclassification = knearestneighbor(21, inputTFIDF, tfidf, cluster);
+    	
+    	System.out.println("KNN: Document, Classification");
+		for (int i = 0; i < inputclassification.length; i++) {
+			System.out.printf("%s: group %s\n", KNNFileList.get(i), topics.get(inputclassification[i]));
+		}
     	
     	// Delete Stop-Word Files
     	for(File outputFolder: outputDirectory.listFiles()) {
@@ -161,10 +171,27 @@ public class App
     		}
     	} 
     	
-    
 	}
 	
-	static void knearestneighbor(int kneighbors, double[][] inputTFIDF, double[][] clustertfidf, ArrayList<TreeSet<Integer>> label2doc) {
+	static ArrayList<String> getTopicFolderNames(ArrayList<String> inputfilelist, ArrayList<TreeSet<Integer>> cluster){
+		
+		ArrayList<String> res = new ArrayList<String>(cluster.size());
+		for (int i = 0; i < cluster.size(); i++) {
+			HashMap<String, Integer> topics = new HashMap<String, Integer>();
+			for (Integer index : cluster.get(i)) {
+				String word = (new File(inputfilelist.get(index))).getParentFile().getName();
+				topics.merge(word, 1, Integer::sum);
+			}
+			ArrayList<Entry<String, Integer>> topicEntry = new ArrayList<Entry<String, Integer>>(topics.entrySet());
+			topicEntry.sort(Entry.comparingByValue());
+			res.add(i ,topicEntry.get( topicEntry.size() -1 ).getKey());
+		}
+		
+		return res;
+		
+	}
+	
+	static int[] knearestneighbor(int kneighbors, double[][] inputTFIDF, double[][] clustertfidf, ArrayList<TreeSet<Integer>> label2doc) {
 		
 		int[] inputclassification = new int[inputTFIDF.length];
 		HashMap <Integer, Integer> res = clusterReverseMap(label2doc);
@@ -227,10 +254,8 @@ public class App
 						
 		}
 		
-		for (int i = 0; i < inputclassification.length; i++) {
-			System.out.println(inputclassification[i] + 1);
-		}
-
+		return inputclassification;
+		
 	}
 	
 	// create dictionary to find cluster by document
